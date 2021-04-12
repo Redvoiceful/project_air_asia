@@ -1,0 +1,52 @@
+.socials{
+    display: flex;
+    margin-right: 74px;
+}
+
+.socials__item{
+    display: flex;
+    margin-right: 10px;
+}
+
+.socials__item:last-child{
+    margin-right: 0;
+}
+
+.social__link{
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.socials__item--icon--telegram .social__link{
+    background-image: url(../air-asia_img/telegram.png);
+}
+
+.socials__item--icon--telegram .social__link:hover{
+    background-image: url(../air-asia_img/t.png);
+}
+
+.socials__item--icon--vk .social__link{
+    background-image: url(../air-asia_img/vk.png);
+}
+
+.socials__item--icon--vk .social__link:hover{
+    background-image: url(../air-asia_img/vk1.png);
+}
+
+.socials__item--icon--facebook .social__link{
+    background-image: url(../air-asia_img/f.png);
+}
+
+.socials__item--icon--facebook .social__link:hover{
+    background-image: url(../air-asia_img/f2.png);
+}
+
+.socials__item--icon--instagram .social__link{
+    background-image: url(../air-asia_img/in.png);
+}
+
+.socials__item--icon--instagram .social__link:hover{
+    background-image: url(../air-asia_img/in1.png);
+}

@@ -1,0 +1,37 @@
+.footer-container{
+    display: flex;
+}
+.footer-container__section{
+    min-height: 132px;
+    margin-bottom: 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #001821;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__wrapper--right{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.contacts__disc{
+    font-size: 11px;
+    color: #9a9a9a;
+}
+
+.footer-review{
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 43px;
+}
+
