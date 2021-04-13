@@ -13,8 +13,7 @@
     color: #1a1b1e;
     font-weight: bold;
     display: flex;
-    margin-bottom: 57px;
-    margin-top: 0;
+    padding: 5% 60% 5% 0%;
 }
 
 .form__row{
