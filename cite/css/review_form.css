@@ -27,14 +27,16 @@
     border-radius: 5px;
     background: #fff;
     padding: 25px 30px;
-    border: none;
+    border-color: none;
     margin-bottom: 26px;
     color: #1a1b1e;
     border-radius: 5px;
+    border: 1px;
 }
 
 .form__input:focus{
-    border: solid #f5170e;
+    border: 1px solid #f5170e;
+    outline: none;
 }
 
 .form__input::placeholder{
@@ -48,9 +50,15 @@
 .form__input--textarea{
     width: 1142px;
     height: 235px;
+    border: 1px;
 }
 
 .form__buttons{
     display: flex;
     justify-content: flex-end;
+}
+
+.button--black{
+    margin-right: 17px;
+    border-color: #2b2b2b;
 }
