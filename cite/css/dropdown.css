@@ -3,6 +3,11 @@
     top: 123%;
     left: 30px;
     opacity: .7;
+    transition: .5s ease;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .dropdown__list{
@@ -11,16 +16,11 @@
     color: #1e1f20;
     width: 160px;
     height: 80px;
-    top: 123%;
     padding: 10% 10%;
-    left: -9999999999999999px;
+    visibility: hidden;
     font-weight: 600;
     font-size: 13px;
-    border-radius: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    transition: .5s ease;
+    border-radius: 5%;    
 }
 
 .dropdown__list:before{
